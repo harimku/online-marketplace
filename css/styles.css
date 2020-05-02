@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+
+
+
+.card-1 {
+    width: 25rem;
+    margin: 90px 0 0px 60px;
+    border: transparent;
+}
+
+.card-1 .card-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-1 .btn-custom {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FF7171;
+    border-color: #FF7171;
+    border-radius: 0;
+    border-style: solid;
+
+}
+
+.card-2 {
+    margin: 100px; 150px 0 150px;
+    border: transparent;
+}
+
+.card-2 h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+
+.card-mini {
+    height: 200px;
+    margin: 0 0 10px 0;
+    padding: 15px;
+    background-color: #f6f6f6;
+    font-style: inherit;
+	border-color: black;
+    border-radius: 7px; /* (height/2) + border-width */
+    text-align: center;
+}
+
+
+.site-footer {
+    background-color: white;
+    margin: 0 0 0 0;
+    padding: 30px 0px 0px 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+.site-footer .form-custom {
+    border-color: #989898;
+}
+
+.site-footer .btn-custom {
+    background-color: white;
+    border-color: #989898;
+    color: #FF7171;
+}
+
+.jumbotron {
+    margin:0;
+    padding: 10px;
+    background: transparent;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.navbar-custom {
+    background: transparent;
+    height: 63px;
+    margin: 15px 0 0px 10px;
+}
+
+.navbar-toggler {
+    background: transparent;
+    border-color: black;
+}
+
+.navbar a {
+    color: #FF7171;
+    font-size: 14px;
+}
+
+
+#signinModal {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+#signinModal .modal-header {
+        background-color: #FF7171;
+        color: white;
+    }
+}
+
+
+
+/***********************
+ * Essential Structure *
+ ***********************/
+
+.flexsearch--wrapper {
+	max-width: 60%;
+	overflow: hidden;
+	background: transparent;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 50%;
+}
+
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+
+
+.flexsearch--input {
+	box-sizing: content-box;
+ 	height: 40px;
+    padding: 0 10px 0 10px;
+	border-color: black;
+    border-radius: 5px; /* (height/2) + border-width */
+    border-style: solid;
+    margin-top: 15px;
+    color: black;
+}
+
+.input-group-text {
+	box-sizing: content-box;
+ 	height: 40px;
+    padding: 0 10px 0 10px;
+	border-color: black;
+    border-radius: 5px; /* (height/2) + border-width */
+    border-style: solid;
+    margin-top: 15px;
+    color: black;
+    background: transparent;
+}
+	
+.flexsearch--submit {
+    position: relative;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+    padding: 0;
+    border: none;
+	margin-top: 10px; /* margin-top + border-width */
+    margin-right: 5px; /* border-width */
+	background: transparent;
+    color: black;
+    line-height: 10px;
+}
+
+
