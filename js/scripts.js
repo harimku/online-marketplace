@@ -1,6 +1,6 @@
 $(function() {
-    $("#signinButton").click(function(){
-        $("#signinModal").modal('show');
+    $("#accountButton").click(function(){
+        window.location = "account.html";
     });
 
 
@@ -11,6 +11,10 @@ $(function() {
         else {
             alert("The email and password you entered don't match.");
         }
+    });
+
+    $("#signinButton").click(function(){
+        $("#signinModal").modal('show');
     });
 
    
