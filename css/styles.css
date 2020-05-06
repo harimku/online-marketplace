@@ -265,6 +265,9 @@ body {
   position: relative;
   z-index: -1; }
 
+.product-grid .rating li.disable {
+  color: #989898; }
+
 .product-grid .product-content {
   background-color: white;
   text-align: center;

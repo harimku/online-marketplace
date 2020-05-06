@@ -351,6 +351,12 @@ body {
 }
 
 .product-grid {
+    .rating li.disable {
+        color: $color-grey;
+    }
+}
+
+.product-grid {
     .product-content {
         background-color: white;
         text-align: center;
